@@ -1,0 +1,7 @@
+1- Create icone.rc in folder : icone
+
+2- write in it : id ICON "icone/ER.ico"
+
+3- in terminal : windres -i icone/icone.rc -o icone/icone.o
+
+4- compile : gcc icone/icone.o -o cours cours.c

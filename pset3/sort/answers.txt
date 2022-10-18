@@ -1,0 +1,49 @@
+sort1 uses: Bubble sort
+
+How do you know?: Because in sorted lists , sort1 is faster than sort3
+
+sort2 uses: Merge sort
+
+How do you know?: Because in random and reversed lists , sort2 is always the fastest
+
+sort3 uses: Selection sort
+
+How do you know?: Because by elemination , since sort1 is bubble sort and sort2 is merge sort , then sort3 is selection sort
+
+
+random5000  : - sort 1 = 0.093 sec
+              - sort 2 = 0.046 sec
+              - sort 3 = 0.056 sec
+
+random10000 : - sort 1 = 0.322 sec
+              - sort 2 = 0.096 sec
+              - sort 3 = 0.184 sec
+
+random50000 : - sort 1 = 8.326 sec
+              - sort 2 = 1.632 sec
+              - sort 3 = 3.841 sec
+
+reversed5000  : - sort 1 = 0.089 sec
+                - sort 2 = 0.044 sec
+                - sort 3 = 0.072 sec
+
+reversed10000 : - sort 1 = 0.089 sec
+                - sort 2 = 0.044 sec
+                - sort 3 = 0.072 sec
+
+reversed50000  : - sort 1 = 6.408 sec
+                 - sort 2 = 1.409 sec
+                 - sort 3 = 4.246 sec
+
+
+sorted5000  : - sort 1 = 0.040 sec
+              - sort 2 = 0.080 sec
+              - sort 3 = 0.047 sec
+
+sorted10000 : - sort 1 = 0.066 sec
+              - sort 2 = 0.056 sec
+              - sort 3 = 0.163 sec
+
+sorted50000 : - sort 1 = 1.599 sec
+              - sort 2 = 1.580 sec
+              - sort 3 = 4.382 sec
